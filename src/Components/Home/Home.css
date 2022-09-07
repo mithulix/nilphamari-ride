@@ -1,0 +1,11 @@
+#bgImg{
+    background-image: url(../images/backImg.jpg);
+    background-repeat: no-repeat; background-size: cover;
+    height: 100vh; width: 100%;
+}
+
+#vehicleContainer { display: grid; grid-template-columns: repeat(4, 1fr); margin: -30% 15% 0; width: 50%};
+
+@media only screen and (max-width: 600px) {
+   #vehicleContainer {display: grid; grid-template-columns: 1fr; }
+}
